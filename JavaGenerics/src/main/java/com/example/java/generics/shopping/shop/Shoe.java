@@ -1,11 +1,11 @@
-package com.example.java.generics.shopping;
+package com.example.java.generics.shopping.shop;
 
-public class Glove implements Sized,Colored
+public class Shoe implements Sized,Colored
 {
     int size;
     String color;
 
-    public Glove(int size, String color) {
+    public Shoe(int size, String color) {
         this.size = size;
         this.color = color;
     }

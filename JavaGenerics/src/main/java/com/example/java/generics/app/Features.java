@@ -9,6 +9,10 @@ public class Features {
         features.add("Compile time Type Checking");
         features.add("Type inference with <>");
         features.add("Compile time Type consistency");
+        features.add("Generics doesn't support records");
+        features.add("extends : is assignment compatible eg: E extends Class/Interface");
+        features.add("Inheritance is bad in GenericType");
+        features.add("Can't apply generics to Enums");
 
         System.out.println(features);
     }

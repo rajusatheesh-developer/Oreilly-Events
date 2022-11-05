@@ -1,4 +1,4 @@
-package com.example.java.generics.shopping;
+package com.example.java.generics.shopping.shop;
 
 public class Pair<E>
 {
